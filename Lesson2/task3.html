@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>text3</title>
+</head>
+<body>
+	<form action="/" name="form1">
+		<p>Name <br/> <input type="text" name="name1"></p>
+		<p>Email<br/><input type="email" name="email1"></p>
+		<p>Sex <br> 
+		<input type="radio" name="sex" value="Male">Male
+		<input type="radio" name="sex" value="Female">Female	
+		</p>
+		<p>Current status <br>
+			<input type="checkbox" name="status" value="a1">Student <br>
+			<input type="checkbox" name="status" value="a2">Employed <br>
+			<input type="checkbox" name="status" value="a3">Unemployed 
+		</p>
+		<p>Month and Year of birth <br>
+			<select name="Month" id="/">
+				<option value="Jan" selected="selected">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+			</select>
+			<select name="Year" id="/">
+				<option value="year">1988</option>
+				<option value="year" selected="selected">1989</option>
+				<option value="year">1990</option>
+			</select></p>
+		<p>Skills and Technologies <br>
+		<select name="SaT" size="10" multiple="multiple" id="/">
+				<optgroup label="Tech skills">
+				<option value="HTML">HTML</option>
+				<option value="CSS">CSS</option>
+				<option value="JS">JavaScript</option>
+				<option value="git">git</option>
+				</optgroup>
+				<optgroup label="Soft skills">
+				<option value="TM">Time management</option>
+				<option value="Proactivity">Proactivity</option>
+				<option value="Teamwork">Teamwork</option>
+				<option value="Leadership">Leadership</option>
+				</optgroup>
+			</select></p>
+			<p>Photo <br>
+				<input type="file" name="photo" value="Choose photo"></p>
+	</form>
+</body>
+</html>
