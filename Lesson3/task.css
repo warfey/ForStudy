@@ -60,3 +60,9 @@ tbody
 	text-align: center;
 	background-color: green;
 }
+tbody tr td:first-child
+{
+	color: orange;
+	text-align: left;
+	background-color: white;
+}
