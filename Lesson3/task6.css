@@ -1,0 +1,61 @@
+input
+{
+	display: none;
+}
+label[for="red"]
+{
+	color: red;
+	text-decoration: underline;
+}
+label[for="green"]
+{
+	color: green;
+	text-decoration: underline;
+}
+label[for="blue"]
+{
+	color: blue;
+	text-decoration: underline;
+}
+.red
+{
+	color: white;
+	background-color: red;
+}
+.green
+{
+	color: white;
+	background-color: green;
+}
+.blue
+{
+	color: white;
+	background-color: blue;
+}
+#red:checked ~ .red
+{
+	display: none;
+}
+#green:checked ~ .green
+{
+	display: none;
+}
+#blue:checked ~ .blue
+{
+	display: none;
+}
+#red:checked ~ label[for="red"]
+{
+	color: gray;
+	text-decoration: underline;
+}
+#green:checked ~ label[for="green"]
+{
+	color: gray;
+	text-decoration: underline;
+}
+#blue:checked ~ label[for="blue"]
+{
+	color: gray;
+	text-decoration: underline;
+}
