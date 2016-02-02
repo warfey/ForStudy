@@ -1,0 +1,17 @@
+li
+{
+	font-size: 25px;
+}
+a[href*="ya"]
+{
+	color: #f70;
+}
+a[href*="google"]
+{
+	color: #666;
+}
+a[href*="yandex"]:after
+{
+	content: " \0021F1"; 
+	text-decoration: none;
+}
