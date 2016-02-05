@@ -1,0 +1,30 @@
+body 
+{
+	font-family: impact;
+}
+nav
+{
+	background-color: #B700FF;
+	margin-top: 50px;
+}
+div
+{
+	width: 850px;
+	padding-left: 50px;
+}
+a
+{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+a:hover
+{
+	background-color: white;
+	color: #5E5E5E;
+	border-bottom: 1px solid #E9E9E9;
+	border-top: 1px solid #E9E9E9;
+	padding: 9px 10px;
+}
