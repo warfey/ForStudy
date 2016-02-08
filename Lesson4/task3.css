@@ -11,9 +11,9 @@
 	a
 	{
 		display: inline-block;
-		font-size: 15px;
+		font-size: 12px;
 		text-decoration: none;
-		padding: 10px;
+		padding: 4px 8px;
 		margin: 3px;
 		color: #B26FB3;
 		
@@ -23,11 +23,13 @@
 		display: inline-block;
 		font-size: 15px;
 		color: #B26FB3;
+		vertical-align: bottom;
+		margin: 0 5px;
 	}
 	.button3
 	{
 		border: 1px solid #E9E9E9;
-		border-radius: 10px;
+		border-radius: 6px;
 	}
 	.button1:before
 	{
@@ -36,4 +38,10 @@
 	.button2:after
 	{
 		content: '\0000BB';
+	}
+	.button3:hover
+	{
+		background-color: #B26FB3;
+		color: white;
+		border: 1px solid violet ;
 	}
