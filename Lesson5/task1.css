@@ -1,0 +1,85 @@
+
+* {margin: 0;
+padding: 0;}
+body 
+{
+	font-family: impact;
+	background-color: white;
+}
+nav
+{
+	background-color: #1D1AB2;
+	position: relative;
+}
+nav > ul
+{
+	width: 900px;
+	margin: auto;
+}
+.menu li
+{
+	display: inline-block;
+	list-style-image: none;
+}
+.menu > li:last-child
+{
+	float: right;
+}
+.menu li a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+}
+.menu li a:hover
+{
+	background-color: #F1F1F1;
+	color: #B4B4B4;
+}
+.hidden1, .hidden2
+{
+	background-color: #F1F1F1;
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}	
+.hidden1 li a
+{
+	color: #B4B4B4;
+}
+.hidden2 li a
+{
+	color: #B4B4B4;
+}
+.hidden1 li a:hover
+{
+	color: white;
+	background-color: #444444;
+}
+.hidden2 li a:hover
+{
+	color: white;
+	background-color: #444444;
+}
+.sport:hover + .hidden1
+{
+	visibility: visible;
+}
+.travels:hover + .hidden2
+{
+	visibility: visible;
+}
+.hidden1:hover
+{
+	visibility: visible;
+}
+.hidden2:hover
+{
+	visibility: visible;
+}
+
+
