@@ -78,11 +78,14 @@ ul li
 	margin: 2px 15px;
 	text-align: left;
 }
+ul li span
+{
+	margin-left: 10px;
+}
 ul li:before
 {
 	content: url(task2.png);
-
-	
+	margin-left: 35px;
 }
 ul li:nth-child(2n+1)
 {
