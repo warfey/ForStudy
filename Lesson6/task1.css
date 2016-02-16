@@ -1,0 +1,383 @@
+*
+{
+	margin: 0;
+	padding: 0;	
+}
+
+article {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	margin: 40px 10px;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #41525c;
+	display: inline-block;
+}
+
+section{
+	position: relative;
+	margin: 0 auto;
+	width: 880px;
+}
+
+.pricing-standart
+{
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	position: absolute;
+	top: 10px;
+}
+.pricing-standart .header
+{
+	background-color: #37c2d3;
+	width: 300px;
+	text-align: center;
+	border: 1px solid #e8eaec;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.pricing-standart .price
+{
+	background-color: white;
+}
+.pricing-standart .header > p
+{
+	color: white;
+	font-size: 24px;
+	padding: 26px 0 20px 0;
+}
+.pricing-standart .price > p
+{
+	font-size: 24px;
+	color: #3f4042;
+	padding-top: 23px;
+}
+.pricing-standart .cash
+{
+	padding-top: 25px;
+	padding-bottom: 32px;
+	-height: 64px;
+}
+.pricing-standart .cash span:nth-child(1)
+{
+	display: inline-block;
+	font-size: 26px;
+	color: #35495a;
+	vertical-align: middle;
+}
+.pricing-standart .cash span:nth-child(2)
+{
+	display: inline-block;
+	font-size: 72px;
+	font-weight: bold;
+	color: #35495a;
+	vertical-align: top;
+}
+.pricing-standart .cash span:nth-child(3)
+{
+	display: inline-block;
+	font-size: 18px;
+	color: #35495a;
+	vertical-align: bottom;
+}
+.pricing-standart ul li
+{
+	display: block;
+	list-style-type: none;
+	color: #9ca1a9;
+	font-size: 15px;
+	padding: 8px 0;
+	margin: 2px 15px;
+	text-align: left;
+}
+.pricing-standart ul li span
+{
+	margin-left: 10px;
+}
+.pricing-standart ul li:before
+{
+	content: url(task1.png);
+	margin-left: 35px;
+}
+.pricing-standart ul li:nth-child(2n+1)
+{
+	background-color: #edf5fd;
+}
+.pricing-standart ul li:nth-child(2n)
+{
+	background-color: #f5f5f6;
+}	
+.pricing-standart button
+{
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	color: white;
+	background-color: #3371a6;
+	border: 3px solid #3371a6;
+	border-radius: 5px;
+	padding: 8px 0;
+	width: 85%;
+	margin-top: 20px;
+	margin-bottom: 23px;
+	box-shadow: 3px 3px 0 0 #16436a;
+	text-decoration: none;
+	outline: none;
+}
+.pricing-standart button:hover
+{
+	background-color: #3F89CA;
+	border: 3px solid #3F89CA;
+	box-shadow: 3px 3px 0 0 #1A4F7D;
+}
+.pricing-standart button:active
+{
+	top: 3px;
+	left: 3px;
+	box-shadow: none;
+}
+
+
+.pricing-best-value
+{
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	position: absolute;
+	z-index: 1; 
+	left: 290px;
+}
+.pricing-best-value .header
+{
+	background-color: #ee8129;
+	width: 300px;
+	text-align: center;
+	border: 3px solid #ee8129;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px;
+}
+.pricing-best-value .price
+{
+	background-color: white;
+}
+.pricing-best-value .header > p
+{
+	color: white;
+	font-size: 24px;
+	padding: 27px 0;
+}
+.pricing-best-value .price > p
+{
+	font-size: 24px;
+	color: #3f4042;
+	padding-top: 23px;
+}
+.pricing-best-value .cash
+{
+	padding-top: 25px;
+	padding-bottom: 32px;
+	-height: 64px;
+}
+.pricing-best-value .cash span:nth-child(1)
+{
+	display: inline-block;
+	font-size: 26px;
+	color: #35495a;
+	vertical-align: middle;
+}
+.pricing-best-value .cash span:nth-child(2)
+{
+	display: inline-block;
+	font-size: 72px;
+	font-weight: bold;
+	color: #35495a;
+	vertical-align: top;
+}
+.pricing-best-value .cash span:nth-child(3)
+{
+	display: inline-block;
+	font-size: 18px;
+	color: #35495a;
+	vertical-align: bottom;
+}
+.pricing-best-value ul li
+{
+	display: block;
+	list-style-type: none;
+	color: #9ca1a9;
+	font-size: 15px;
+	padding: 8px 0;
+	margin: 2px 15px;
+	text-align: left;
+}
+.pricing-best-value ul li span
+{
+	margin-left: 10px;
+}
+.pricing-best-value ul li:before
+{
+	content: url(task1.png);
+	margin-left: 35px;
+}
+.pricing-best-value ul li:nth-child(2n+1)
+{
+	background-color: #edf5fd;
+}
+.pricing-best-value ul li:nth-child(2n)
+{
+	background-color: #f5f5f6;
+}	
+.pricing-best-value button
+{
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	color: white;
+	background-color: #ee8129;
+	border: 3px solid #ee8129;
+	border-radius: 5px;
+	padding: 8px 0;
+	width: 85%;
+	margin-top: 20px;
+	margin-bottom: 33px;
+	box-shadow: 3px 3px 0 0 #b3560b;
+	text-decoration: none;
+	outline: none;
+}
+.pricing-best-value button:hover
+{
+	background-color: #FA9E54;
+	border: 3px solid #FA9E54;
+	box-shadow: 3px 3px 0 0 #D26710;
+}
+.pricing-best-value button:active
+{
+	top: 3px;
+	left: 3px;
+	box-shadow: none;
+}
+
+
+.pricing-ultimate
+{
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	position: absolute;
+	left: 580px;
+	top: 10px;
+}
+.pricing-ultimate .header
+{
+	background-color: #1cb79a;
+	width: 300px;
+	text-align: center;
+	border: 1px solid #e8eaec;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.pricing-ultimate .price
+{
+	background-color: white;
+}
+.pricing-ultimate .header > p
+{
+	color: white;
+	font-size: 24px;
+	padding: 26px 0 20px 0;
+}
+.pricing-ultimate .price > p
+{
+	font-size: 24px;
+	color: #3f4042;
+	padding-top: 23px;
+}
+.pricing-ultimate .cash
+{
+	padding-top: 25px;
+	padding-bottom: 32px;
+}
+.pricing-ultimate .cash span:nth-child(1)
+{
+	display: inline-block;
+	font-size: 26px;
+	color: #35495a;
+	vertical-align: middle;
+}
+.pricing-ultimate .cash span:nth-child(2)
+{
+	display: inline-block;
+	font-size: 72px;
+	font-weight: bold;
+	color: #35495a;
+	vertical-align: top;
+}
+.pricing-ultimate .cash span:nth-child(3)
+{
+	display: inline-block;
+	font-size: 18px;
+	color: #35495a;
+	vertical-align: bottom;
+}
+.pricing-ultimate ul li
+{
+	display: block;
+	list-style-type: none;
+	color: #9ca1a9;
+	font-size: 15px;
+	padding: 8px 0;
+	margin: 2px 15px;
+	text-align: left;
+}
+.pricing-ultimate ul li span
+{
+	margin-left: 10px;
+}
+.pricing-ultimate ul li:before
+{
+	content: url(task1.png);
+	margin-left: 35px;
+}
+.pricing-ultimate ul li:nth-child(2n+1)
+{
+	background-color: #edf5fd;
+}
+.pricing-ultimate ul li:nth-child(2n)
+{
+	background-color: #f5f5f6;
+}	
+.pricing-ultimate button
+{
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	color: white;
+	background-color: #3371a6;
+	border: 3px solid #3371a6;
+	border-radius: 5px;
+	padding: 8px 0;
+	width: 85%;
+	margin-top: 20px;
+	margin-bottom: 23px;
+	box-shadow: 3px 3px 0 0 #16436a;
+	text-decoration: none;
+	outline: none;
+}
+.pricing-ultimate button:hover
+{
+	background-color: #3F89CA;
+	border: 3px solid #3F89CA;
+	box-shadow: 3px 3px 0 0 #1A4F7D;
+}
+.pricing-ultimate button:active
+{
+	top: 3px;
+	left: 3px;
+	box-shadow: none;
+}
